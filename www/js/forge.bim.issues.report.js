@@ -200,7 +200,7 @@ function refreshIssuebyCompany(company){
    
   var labels=[],dataTotals=[];colors=[];
   for(var com in company){  
-    labels.push(company);
+    labels.push(com);
     dataTotals.push(company[com].total);
     colors.push(random_rgba())
   }
