@@ -167,7 +167,7 @@ function refreshRootcause(rootcause){
 
       title: {
         display: true,
-        text: 'Root Cause'
+        text: 'Type Report'
       },
       tooltips: {
         mode: 'index',
@@ -225,7 +225,7 @@ function refreshIssuebyCompany(company){
           maintainAspectRatio: true,
 					title: {
 						display: true,
-						text: 'Open Issue by Company'
+						text: 'Issue by Company'
 					},
 					tooltips: {
 						mode: 'index',
